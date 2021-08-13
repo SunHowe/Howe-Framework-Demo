@@ -1,3 +1,6 @@
 [submodule "Packages/Howe Framework"]
 	path = Packages/Howe Framework
 	url = https://github.com/SunHowe/Howe-Framework.git
+[submodule "Packages/Howe Framework Fsm"]
+	path = Packages/Howe Framework Fsm
+	url = https://github.com/SunHowe/Howe-Framework-Fsm.git
