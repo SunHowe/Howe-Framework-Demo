@@ -1,11 +1,18 @@
-﻿using System;
-using HoweFramework;
+﻿using HoweFramework;
 using UnityEngine;
 
 public class DemoRoot : MonoBehaviour
 {
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     private void Start()
     {
-        HCore.That.Initialize();
+        var application = CatLib.Application.New();
+
+        application.Bootstrap(new HCoreBoostrap(), new DemoBoostrap());
+        application.Init();
     }
 }
