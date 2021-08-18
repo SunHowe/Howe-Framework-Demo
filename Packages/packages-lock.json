@@ -6,6 +6,18 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.howegame.framework.addressables": {
+      "version": "file:Howe Framework Addressables",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.howegame.framework.fairygui": {
+      "version": "file:Howe Framework FairyGUI",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.howegame.framework.fsm": {
       "version": "file:Howe Framework Fsm",
       "depth": 0,
